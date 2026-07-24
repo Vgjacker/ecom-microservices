@@ -2,7 +2,7 @@
 
 A backend e-commerce system built using **Java, Spring Boot, and Spring Data JPA**, decomposed into independent microservices — each owning its own PostgreSQL database and exposing a REST API for a specific business capability (users, products, cart & orders).
 
-Built while following the [EmbarkX Spring Boot Microservices eCommerce course](https://youtu.be/i_9z3tNrphE), then extended and restructured independently.
+Designed and implemented the service boundaries, REST API contracts, and database-per-service data layer for three independently deployable Spring Boot services.
 
 ---
 
@@ -133,6 +133,14 @@ ecom-microservices/
 - [ ] Unit & integration test coverage
 
 ---
+
+## 🧠 What This Project Demonstrates
+
+- Splitting a monolith into independently deployable services with clear ownership boundaries
+- Database-per-service design (no shared tables, no cross-service DB access)
+- RESTful API design across multiple resources (users, products, cart, orders)
+- Dockerized local infrastructure (Postgres + pgAdmin)
+- Working with Spring Data JPA, Lombok, and Maven multi-module-style service layout
 
 ## 📄 License
 
